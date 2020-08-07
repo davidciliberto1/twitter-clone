@@ -1,0 +1,9 @@
+.sidebar {
+}
+.exploreIcon {
+
+}
+.exploreIcon:hover {
+    background-color: rgb(142, 190, 223);
+    color: rgb(35, 123, 182);
+}
