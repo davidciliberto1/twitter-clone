@@ -3,7 +3,10 @@
     width: 100%;
 }
 .twitterIcon {
+    background-color: white;
+    border: none;
   color: rgba(29, 161, 242, 1);
+  cursor: pointer;
 }
 
 .optionIcon:hover {

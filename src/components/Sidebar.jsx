@@ -14,7 +14,7 @@ function Sidebar() {
     <div className="sidebar">
       {/* {Twitter Icon} */}
       <div className="twitterIcon">
-        <TwitterIcon  />
+        <button className="twitterIcon"><TwitterIcon  /></button>
       </div>
       <div className="homeIcon">
         <button className="optionIcon"><HomeOutlinedIcon /> Home</button>
