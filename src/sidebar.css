@@ -1,9 +1,20 @@
 .sidebar {
+    display: flexbox;
+    width: 100%;
 }
-.exploreIcon {
+.twitterIcon {
+  color: rgba(29, 161, 242, 1);
+}
 
+.optionIcon:hover {
+    cursor: pointer;
+    background-color: rgb(220, 232, 240);
+    color: rgba(29, 161, 242, 1);
+    border-radius: 50%;
+    border: none;
 }
-.exploreIcon:hover {
-    background-color: rgb(142, 190, 223);
-    color: rgb(35, 123, 182);
+.optionIcon {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
 }

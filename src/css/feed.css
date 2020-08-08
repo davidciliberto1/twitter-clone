@@ -1,0 +1,30 @@
+.feed {
+    display: flexbox;
+    width: 40%;
+}
+.iconStars {
+    color: rgba(29, 161, 242, 1);
+}
+.inputTweet {
+    border: none;
+}
+.opcionesTweet {
+    color: rgba(29, 161, 242, 1);
+}
+.header {
+    display: flex;
+}
+.opcionesTweet {
+    display: flex;
+}
+
+.optionButton {
+    background-color:  white;
+    border: none;
+    border-radius: 50%;
+}
+.optionButton:hover {
+    border: none;
+    color: rgba(29, 161, 242, 1);
+    background-color: rgb(220, 232, 240);
+}

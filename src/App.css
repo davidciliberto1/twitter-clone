@@ -1,5 +1,6 @@
 .app {
   display: flex;
   margin: 1rem;
+  width: 100%;
 }
 

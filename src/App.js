@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
-
+import Feed from './components/Feed';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
      <Sidebar/>
      </div>
      <div className='feed'>
-       Feed
+       <Feed/>
      </div>
      <div className='widgets'>
         Widgets
