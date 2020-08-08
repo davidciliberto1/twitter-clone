@@ -2,36 +2,32 @@
   display: flex;
 }
 .feed {
-    background-color: chartreuse;
+  flex-direction: column;
+  background-color: chartreuse;
   display: flex;
-  
 }
 .header1 {
-  height: 2rem;
   display: flex;
   flex-direction: row;
+  align-items: baseline;
   background-color: red;
   top: 0;
-  position: fixed;
-  border: thick;
-  border-color: black;
 }
 .home {
-    top: 0;
-  background-color: blue    ;
+  background-color: brown;
 }
+
 .iconStars {
-    background-color: brown;
-    color: rgba(0, 172, 238, 1);
-  }
+  background-color: brown;
+  color: rgba(0, 172, 238, 1);
+}
 
 .twitterBox {
-    background-color: cadetblue;
+  background-color: cadetblue;
   padding-top: 12%;
   display: flex;
   flex-direction: column;
 }
-
 
 .inputTweet {
   border: none;

@@ -13,7 +13,7 @@ function Feed() {
         
       <div className="feed">
       <div className="header1">
-          Home
+          <h1 className='home'>Home</h1>
             <StarsOutlinedIcon className="iconStars" />
         </div>
         
