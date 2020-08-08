@@ -14,7 +14,8 @@
 .optionIcon:hover {
   cursor: pointer;
   border: none;
-  color: rgba(29, 161, 242, 1);
+  background-color: rgb(221, 234, 241);
+  color: rgba(0, 172, 238, 1);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -26,7 +27,7 @@
 .optionIcon {
     cursor: pointer;
     border: none;
-    background-color: rgb(220, 232, 240);
+    background-color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;

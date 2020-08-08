@@ -12,11 +12,9 @@ function Feed() {
     <div className="allfeed">
         
       <div className="feed">
-      <div className="header">
-          <h1>Home</h1>
-          <div className="iconStars">
-            <StarsOutlinedIcon />
-          </div>
+      <div className="header1">
+          Home
+            <StarsOutlinedIcon className="iconStars" />
         </div>
         
         <div className="twitterBox">

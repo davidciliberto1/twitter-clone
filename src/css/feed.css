@@ -2,37 +2,50 @@
   display: flex;
 }
 .feed {
-    padding: 5%;
-    display: flex;
-    justify-content: stretch;
+    background-color: chartreuse;
+  display: flex;
+  
 }
+.header1 {
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  top: 0;
+  position: fixed;
+  border: thick;
+  border-color: black;
+}
+.home {
+    top: 0;
+  background-color: blue    ;
+}
+.iconStars {
+    background-color: brown;
+    color: rgba(0, 172, 238, 1);
+  }
+
 .twitterBox {
+    background-color: cadetblue;
+  padding-top: 12%;
   display: flex;
   flex-direction: column;
 }
-.header {
-  display: flex;
-      background-color: white;
-  position: fixed;
-  top: 0;
-}
-.iconStars {
-  color: rgba(29, 161, 242, 1);
-}
+
+
 .inputTweet {
   border: none;
 }
 .opcionesTweet {
-  color: rgba(29, 161, 242, 1);
+  color: rgba(0, 172, 238, 1);
 }
-.header {
-  display: flex;
-}
+
 .opcionesTweet {
   display: flex;
 }
 .buttonTweet {
   border: none;
+  background-color: white;
   color: rgb(133, 207, 241);
   padding: 15px 32px;
   text-align: center;
@@ -43,13 +56,14 @@
 }
 .buttonTweet:hover {
   border: none;
-  color: rgba(29, 161, 242, 1);
-  background-color: rgb(220, 232, 240);
+  color: rgba(0, 172, 238, 1);
+  background-color: white;
 }
 
 .optionButton {
   border: none;
-  color: rgb(133, 207, 241);
+  background-color: white;
+  color: rgb(173, 222, 245);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -59,6 +73,6 @@
 }
 .optionButton:hover {
   border: none;
-  color: rgba(29, 161, 242, 1);
-  background-color: rgb(220, 232, 240);
+  color: rgba(0, 172, 238, 1);
+  background-color: rgb(226, 236, 243);
 }
