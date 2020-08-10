@@ -25,7 +25,7 @@ const mascotas = [
         tipo: 'gato'
     },
 ];
-const numeros = [0,1,2,3,4,5,6,7,8,9];
+const numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 // Metodo '.filter()' retorna un array nuevo con los objetos seleccionados true por la funcion()
 let numerosFiltrados = numeros.filter(x => x >= 7);
 
@@ -38,12 +38,15 @@ let parejas = numeros.map(x => [x, x]);
 let edades = mascotas.map(x => x.edad);
 let filtroPerrosJovenes = edades.filter(x => x < 5);
 let perrosJovenes = mascotas.filter(x => x == filtroPerrosJovenes);
+// metodo '.reducer()' retorna la sumatoria de todos los elementos de un array acumulando (acc) la suma dede uno mas otro partiendo desde el valor inicial acc + num o elemento, 0 o [] o {}
+let reduciendoNumeros = numeros.reduce((acc, num) => acc + num, 0)
 function Widgets() {
+    console.log(reduciendoNumeros);
     console.log(perrosJovenes);
     return (
         <div>
             
-    <h1>{parejas}<br/>{perrosJovenes} {numeros} {numerosMapeados}<br/> {numerosFiltrados}</h1>
+    <h1>{parejas}<br/>{perrosJovenes} {reduciendoNumeros}<br/>{numeros} {numerosMapeados}<br/> {numerosFiltrados}</h1>
         </div>
     )
 }
